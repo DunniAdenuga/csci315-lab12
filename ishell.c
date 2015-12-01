@@ -64,6 +64,9 @@ int main(){
 	 //noOfEnters = 0;
        }
        //exit(1);
+     }else if(strcmp(command, "exit")==0){
+       printf("Exiting ishell\n");
+       exit(0);
      }else{
        //strcat(command, ";");
        tokenizeBySemiColon(command, &firstInstruction, &secondInstruction);
