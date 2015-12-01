@@ -70,7 +70,7 @@ int main(){
        }
        //exit(1);
      }else if(strcmp(command, "exit")==0){
-       printf("Exiting ishell\n");
+       printf("Exiting gshell\n");
        exit(0);
      }else{
        //strcat(command, ";");
@@ -87,7 +87,7 @@ int main(){
 	       perror("Perror fork!");
 	     }
 	     if(pid2 > 0){//still parent
-	       printf("[ishell: program terminated successfully]\n");
+	       printf("[gshell: program terminated successfully]\n");
 	       kill(pid , SIGKILL);
 	       wait(&status2);
 	       
@@ -109,7 +109,7 @@ int main(){
 	   
 	   
 	   else{
-	     printf("[ishell: program terminated abnormally][return status: %d]\n", status);
+	     printf("[gshell: program terminated abnormally][return status: %d]\n", status);
 	   }
 	   
 	 }
