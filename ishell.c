@@ -1,3 +1,8 @@
+/**
+ *John Simmons
+ *Ari Faust
+ *Dunni Adenuga
+ **/
 /*
 Cat(used as readout)- read a file:preferably files in current directory and print contents to stdout
 name: readout
