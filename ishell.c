@@ -38,7 +38,7 @@ int main(){
      char *firstInstruction = NULL;
      char *secondInstruction = NULL;
 
-     command = readline("ishell> ");
+     command = readline("gshell> ");
 
      if(strcmp(command, "^") == 0){
        if(strcmp(prev_command, "") != 0){
